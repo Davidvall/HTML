@@ -1,0 +1,205 @@
+body{
+    color: rgb(0, 0, 0);
+}
+
+p{
+ font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+@media (max-width:500px){
+   body{
+       color:rgb(255, 255, 255);
+   }
+
+   h2{
+       font-size:30px
+	   
+   }
+
+   p{
+       font-size:20px
+   }
+} 
+
+
+.fab {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 40%;
+    background: #F44336;
+}
+
+
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	min-height: 800px;
+	position: relative;
+	text-align: center;
+	font-family: sans-serif, arial;
+	margin: 0;
+}
+
+h1, p {
+	margin: 0;
+	font-family: sans-serif, arial;
+	font-weight: bold;
+}
+
+.text-wr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#section1 {
+	background: #5c53aa;
+	color: #8d86c3;
+}
+
+#section2 {
+	background: #4bbfc3;
+	color: #81d2d5;
+}
+
+#section3 {
+	background: #283044;
+	color: #686e7c;
+}
+
+#section4 {
+	background: #ebf5ee;
+	color: #aeb9b9;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.title-top {
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.title-bottom {
+	font-size: 30px;
+}
+
+.title-tx {
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.nav {
+	position: fixed; /*left: 50%;*/
+	width: 100%;
+	top: 20px;
+	z-index: 9;
+	padding-left: 10px;
+}
+
+.nav a {
+	padding: 7px 20px;
+	border-radius: 7px;
+	margin-right: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif, arial;
+	font-weight: 100;
+}
+
+.nav a.active {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.nav a:hover {
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.fork-wr img {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+
+img {  
+    width: 60%;
+    height: 0.1;
+    opacity: 0.7;
+    
+}
+
+h1 {
+    border: 5px double rgb(0, 0, 0);
+  }
+  
+  h2 {
+    border: 4px none rgb(14, 14, 15);
+  }
+  
+  div {
+    border: double
+  }
+  
+* {
+    background-color: rgb(83, 81, 79); /*Sätter en backgrundsfärg för alla mina sidor*/
+}
+
+.myHeader {
+    color: #3b3b3b;
+    font-size: 200%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#para1{
+    background-color: rgb(0, 0, 0);
+}
+
+#para2{
+    background-color: rgb(0, 0, 0);
+}
+
+a:hover,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+.leftText {
+    display: inline-block;
+    padding-right: 700 px;
+    margin-right: 700 px;
+}
+
+h1,
+p {
+    background-color: rgb(122, 121, 121);
+}
